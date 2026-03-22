@@ -31,7 +31,7 @@ function App() {
       originalPrice: null,
       badge: 'Most Popular',
       features: [
-        'Everything in Early Bird',
+        'Your own AI agent that teaches you OpenClaw',
         '2 Live Sessions per Week',
         'Cohort Community',
         'Catch-up Recordings',
