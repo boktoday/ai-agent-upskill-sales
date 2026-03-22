@@ -19,27 +19,11 @@ const COLORS = {
 }
 
 function App() {
-  const [selectedTier, setSelectedTier] = useState('early')
+  const [selectedTier, setSelectedTier] = useState('cohort')
   const [showCheckout, setShowCheckout] = useState(false)
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false)
 
   const tiers = [
-    {
-      id: 'early',
-      name: 'Early Bird',
-      price: 147,
-      originalPrice: 297,
-      badge: 'Limited Spots',
-      features: [
-        'AI Agent Upskill Course',
-        'Agent Ecosystem Download',
-        'Setup Guide (All Platforms)',
-        'Interactive Flashcards',
-        'Progress Tracking',
-        'Certificate of Completion',
-      ],
-      highlight: false,
-    },
     {
       id: 'cohort',
       name: 'Live Cohort',
@@ -225,7 +209,7 @@ function App() {
       <section id="pricing" className="section-cream">
         <div className="section-inner">
           <div className="section-header">
-            <h2 className="section-title">Simple Pricing</h2>
+            <h2 className="section-title">Invest in Your Future</h2>
             <p className="section-subtitle">One payment. Keep everything you build. Forever.</p>
           </div>
 
@@ -300,7 +284,7 @@ function App() {
           Join the next cohort. Set up your OpenClaw. Leave with working AI agents.
         </p>
         <a href="#pricing" className="btn-primary cta-btn">
-          Enroll Now — From ${tiers.find((t: any) => t.id === selectedTier)?.price || 297} <ArrowRight size={20} />
+          Enroll Now — From $297 <ArrowRight size={20} />
         </a>
       </section>
 
