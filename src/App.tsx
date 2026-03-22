@@ -128,7 +128,7 @@ function App() {
           Now Enrolling — Next Cohort Starts Monday
         </div>
         <div className="hero-image-wrapper">
-          <img src="/openclaw-hero.png" alt="OpenClaw AI Assistant" className="hero-image" />
+          <img src="/openclaw-mascot.jpg" alt="OpenClaw Mascot" className="hero-image" />
         </div>
         <h1 className="hero-title">
           Master AI Agents with Your<br />
@@ -487,18 +487,18 @@ function App() {
         .hero-image-wrapper {
           display: flex;
           justify-content: center;
-          margin-bottom: 24px;
+          margin-bottom: 20px;
         }
         .hero-image {
-          width: 160px;
-          height: 160px;
+          width: 180px;
+          height: 180px;
           border-radius: 50%;
           object-fit: cover;
-          border: 4px solid rgba(240,131,157,0.25);
-          box-shadow: 0 8px 32px rgba(240,131,157,0.2);
+          border: 4px solid rgba(240,131,157,0.3);
+          box-shadow: 0 8px 40px rgba(240,131,157,0.25);
         }
         @media (min-width: 768px) {
-          .hero-image { width: 200px; height: 200px; }
+          .hero-image { width: 220px; height: 220px; }
         }
 
         .hero-badge {
