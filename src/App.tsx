@@ -127,6 +127,9 @@ function App() {
           <Rocket size={14} />
           Now Enrolling — Next Cohort Starts Monday
         </div>
+        <div className="hero-image-wrapper">
+          <img src="/openclaw-hero.png" alt="OpenClaw AI Assistant" className="hero-image" />
+        </div>
         <h1 className="hero-title">
           Master AI Agents with Your<br />
           <span style={{ color: COLORS.rosePink }}>Personal AI Coach</span>
@@ -479,6 +482,23 @@ function App() {
           padding: 40px 20px 64px;
           max-width: 900px;
           margin: 0 auto;
+        }
+
+        .hero-image-wrapper {
+          display: flex;
+          justify-content: center;
+          margin-bottom: 24px;
+        }
+        .hero-image {
+          width: 160px;
+          height: 160px;
+          border-radius: 50%;
+          object-fit: cover;
+          border: 4px solid rgba(240,131,157,0.25);
+          box-shadow: 0 8px 32px rgba(240,131,157,0.2);
+        }
+        @media (min-width: 768px) {
+          .hero-image { width: 200px; height: 200px; }
         }
 
         .hero-badge {
