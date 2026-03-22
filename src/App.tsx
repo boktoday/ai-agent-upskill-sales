@@ -293,7 +293,7 @@ function App() {
 
           <div className="trust-row">
             <div className="trust-item">
-              <Shield size={14} color={COLORS.buildingTeal} /> Secure payment via Square. Afterparty available
+              <Shield size={14} color={COLORS.buildingTeal} /> Secure payment via Square. Afterpay available
             </div>
             <div className="trust-item">
               <Infinity size={14} color={COLORS.buildingTeal} /> 30-day money-back guarantee
