@@ -128,7 +128,7 @@ function App() {
           Now Enrolling — Next Cohort Starts Monday
         </div>
         <div className="hero-image-wrapper">
-          <img src="/openclaw-mascot.jpg" alt="OpenClaw Mascot" className="hero-image" />
+          <img src="/hero-crab.jpg" alt="OpenClaw AI Agent" className="hero-image" />
         </div>
         <h1 className="hero-title">
           Master AI Agents with Your<br />
