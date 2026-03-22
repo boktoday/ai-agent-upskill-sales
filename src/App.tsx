@@ -115,7 +115,7 @@ function App() {
         <div className="nav-inner">
           <div style={{ display: 'flex', alignItems: 'center', gap: 10 }}>
             <Bot size={24} color={COLORS.rosePink} />
-            <span style={{ fontSize: 20, fontWeight: 800, color: COLORS.headlineBlack }}>AI Upskill</span>
+            <span style={{ fontSize: 20, fontWeight: 800, color: COLORS.headlineBlack }}>AI Agent Upskill</span>
           </div>
           <div className="desktop-nav">
             <a href="#course" className="nav-link">Course</a>
@@ -316,7 +316,7 @@ function App() {
             <button className="modal-close" onClick={() => setShowCheckout(false)}>
               <X size={20} color={COLORS.midGrey} />
             </button>
-            <h3 className="modal-title">Enroll in AI Upskill</h3>
+            <h3 className="modal-title">Enroll in AI Agent Upskill</h3>
             <p className="modal-subtitle">
               {tiers.find((t: any) => t.id === selectedTier)?.name} — ${tiers.find((t: any) => t.id === selectedTier)?.price}
             </p>
