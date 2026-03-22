@@ -3,7 +3,7 @@ import {
   Bot, BookOpen, Laptop, BarChart3, Users, Award,
   Rocket, Zap, Wrench, Target, CheckCircle2, ChevronDown,
   Menu, X, ArrowRight, Star, Clock, Shield, GraduationCap,
-  Infinity, Check
+  Infinity, Check, Briefcase, Home, Building2
 } from 'lucide-react'
 
 const COLORS = {
@@ -180,6 +180,46 @@ function App() {
                 </div>
               </div>
             ))}
+          </div>
+        </div>
+      </section>
+
+      {/* Who Is This For? */}
+      <section className="section-cream">
+        <div className="section-inner">
+          <div className="section-header">
+            <h2 className="section-title">Who Is This For?</h2>
+            <p className="section-subtitle">This course meets you where you are</p>
+          </div>
+          <div className="who-grid">
+            <div className="who-card">
+              <div className="who-icon">
+                <Rocket size={28} color={COLORS.rosePink} />
+              </div>
+              <h3 className="who-title">Making agents for your business</h3>
+              <p className="who-desc">Automate workflows, cut overhead, scale smarter</p>
+            </div>
+            <div className="who-card">
+              <div className="who-icon">
+                <Briefcase size={28} color={COLORS.rosePink} />
+              </div>
+              <h3 className="who-title">A new side hustle</h3>
+              <p className="who-desc">Build AI products and services on the side</p>
+            </div>
+            <div className="who-card">
+              <div className="who-icon">
+                <Home size={28} color={COLORS.rosePink} />
+              </div>
+              <h3 className="who-title">For your family</h3>
+              <p className="who-desc">Organise, plan, and stay connected with AI</p>
+            </div>
+            <div className="who-card">
+              <div className="who-icon">
+                <Building2 size={28} color={COLORS.rosePink} />
+              </div>
+              <h3 className="who-title">Your current role in business</h3>
+              <p className="who-desc">Stand out, move faster, deliver more</p>
+            </div>
           </div>
         </div>
       </section>
@@ -624,6 +664,56 @@ function App() {
         }
 
         /* ===========================
+           WHO IS THIS FOR
+           =========================== */
+        .who-grid {
+          display: grid;
+          grid-template-columns: 1fr;
+          gap: 20px;
+        }
+
+        .who-card {
+          background: #fff;
+          border-radius: 20px;
+          padding: 28px 24px;
+          border: 2px solid rgba(240, 131, 157, 0.12);
+          transition: transform 0.2s, box-shadow 0.2s, border-color 0.2s;
+          display: flex;
+          flex-direction: column;
+          gap: 10px;
+        }
+
+        .who-card:hover {
+          transform: translateY(-4px);
+          box-shadow: 0 12px 36px rgba(240, 131, 157, 0.18);
+          border-color: rgba(240, 131, 157, 0.35);
+        }
+
+        .who-icon {
+          width: 56px;
+          height: 56px;
+          background: rgba(240, 131, 157, 0.1);
+          border-radius: 14px;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          margin-bottom: 4px;
+        }
+
+        .who-title {
+          font-size: 17px;
+          font-weight: 800;
+          color: #3D3935;
+          line-height: 1.3;
+        }
+
+        .who-desc {
+          font-size: 14px;
+          color: #555;
+          line-height: 1.6;
+        }
+
+        /* ===========================
            STEPS
            =========================== */
         .steps-list {
@@ -967,6 +1057,7 @@ function App() {
         @media (min-width: 640px) {
           .modules-grid { grid-template-columns: repeat(2, 1fr); }
           .features-grid { grid-template-columns: repeat(2, 1fr); }
+          .who-grid { grid-template-columns: repeat(2, 1fr); }
           .step-card { flex-wrap: nowrap; }
           .pricing-card { width: 300px; }
           .section-light,
@@ -981,6 +1072,7 @@ function App() {
         @media (min-width: 1024px) {
           .modules-grid { grid-template-columns: repeat(5, 1fr); }
           .features-grid { grid-template-columns: repeat(3, 1fr); }
+          .who-grid { grid-template-columns: repeat(4, 1fr); }
           .nav-inner { padding: 14px 40px; }
           .hero-section { padding: 60px 40px 80px; }
           .section-light,
