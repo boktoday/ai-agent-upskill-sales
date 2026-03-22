@@ -293,7 +293,7 @@ function App() {
 
           <div className="trust-row">
             <div className="trust-item">
-              <Shield size={14} color={COLORS.buildingTeal} /> Secure payment via Stripe
+              <Shield size={14} color={COLORS.buildingTeal} /> Secure payment via Square. Afterparty available
             </div>
             <div className="trust-item">
               <Infinity size={14} color={COLORS.buildingTeal} /> 30-day money-back guarantee
@@ -347,7 +347,7 @@ function App() {
             <p className="modal-subtitle">
               {tiers.find((t: any) => t.id === selectedTier)?.name} — ${tiers.find((t: any) => t.id === selectedTier)?.price}
             </p>
-            <form onSubmit={(e: any) => { e.preventDefault(); alert('Stripe checkout would open here') }}>
+            <form onSubmit={(e: any) => { e.preventDefault(); alert('Square checkout would open here') }}>
               <input type="text" placeholder="Full Name" required className="form-input" />
               <input type="email" placeholder="Email Address" required className="form-input" />
               <button type="submit" className="btn-primary modal-submit">
