@@ -3,7 +3,8 @@ import {
   Bot, BookOpen, Laptop, BarChart3, Users, Award,
   Rocket, Zap, Wrench, Target, CheckCircle2, ChevronDown,
   Menu, X, ArrowRight, Star, Clock, Shield, GraduationCap,
-  Infinity, Check, Briefcase, Home, Building2
+  Infinity, Check, Briefcase, Home, Building2, Download,
+  Mail, Globe
 } from 'lucide-react'
 
 const COLORS = {
@@ -75,6 +76,13 @@ function App() {
     { q: 'Can I use this for my business?', a: 'Absolutely! You own the agents you build and can use them in your business.' },
   ]
 
+  const requirements = [
+    { icon: Mail, label: 'Gmail account' },
+    { icon: Laptop, label: 'Desktop / Laptop' },
+    { icon: Globe, label: 'Chrome Browser' },
+    { icon: Download, label: 'OpenClaw installed (we teach you how)' },
+  ]
+
   return (
     <div style={{ background: `linear-gradient(180deg, ${COLORS.paleCream} 0%, ${COLORS.softApricot} 40%, ${COLORS.burntOrange} 100%)`, minHeight: '100vh', fontFamily: 'system-ui, sans-serif' }}>
 
@@ -121,6 +129,17 @@ function App() {
         <p className="hero-desc">
           Learn to build, customize, and deploy AI agent ecosystems using OpenClaw.
           You leave with <strong>working agents</strong> — not just theory.
+        </p>
+        <div className="requirements-row">
+          {requirements.map((r, i) => (
+            <div key={i} className="requirement-pill">
+              <r.icon size={15} />
+              <span>{r.label}</span>
+            </div>
+          ))}
+        </div>
+        <p className="requirements-note">
+          We'll show you how to install OpenClaw on your computer, laptop, or mini PC.
         </p>
         <div className="hero-buttons">
           <a href="#pricing" className="btn-primary">
@@ -519,6 +538,42 @@ function App() {
           gap: 12px;
           justify-content: center;
           flex-wrap: wrap;
+        }
+
+        .requirements-row {
+          display: flex;
+          gap: 10px;
+          justify-content: center;
+          flex-wrap: wrap;
+          margin-bottom: 12px;
+        }
+
+        .requirement-pill {
+          display: inline-flex;
+          align-items: center;
+          gap: 6px;
+          background: rgba(255,255,255,0.75);
+          border: 1.5px solid rgba(240,131,157,0.3);
+          color: #3D3935;
+          padding: 7px 14px;
+          border-radius: 20px;
+          font-size: 13px;
+          font-weight: 600;
+          backdrop-filter: blur(6px);
+          -webkit-backdrop-filter: blur(6px);
+          box-shadow: 0 2px 10px rgba(0,0,0,0.06);
+          transition: background 0.2s, border-color 0.2s;
+        }
+        .requirement-pill:hover {
+          background: rgba(255,255,255,0.95);
+          border-color: rgba(240,131,157,0.5);
+        }
+
+        .requirements-note {
+          color: #555;
+          font-size: 14px;
+          margin-bottom: 28px;
+          text-align: center;
         }
 
         /* ===========================
