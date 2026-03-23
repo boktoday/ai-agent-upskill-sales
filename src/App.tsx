@@ -797,8 +797,9 @@ function App() {
         .pricing-grid {
           display: flex;
           gap: 16px;
-          min-width: max-content;
+          min-width: auto;
           padding: 4px 4px 12px;
+          justify-content: center;
         }
 
         .pricing-card {
