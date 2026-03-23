@@ -19,7 +19,7 @@ const COLORS = {
 }
 
 function App() {
-  const [selectedTier, setSelectedTier] = useState('cohort')
+  const [selectedTier, setSelectedTier] = useState('early')
   const [showCheckout, setShowCheckout] = useState(false)
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false)
 
@@ -39,22 +39,6 @@ function App() {
         'Personalized Agent Setup',
       ],
       highlight: true,
-    },
-    {
-      id: 'premium',
-      name: 'Premium',
-      price: 497,
-      originalPrice: 997,
-      badge: 'Best Value',
-      features: [
-        'Everything in Cohort',
-        '1-on-1 Strategy Call',
-        'Custom Agent Build',
-        'Priority Support',
-        'Lifetime Access',
-        'Agency License Rights',
-      ],
-      highlight: false,
     },
   ]
 
@@ -88,7 +72,7 @@ function App() {
     { q: 'What if I miss a session?', a: "You get catch-up recordings and can join the next cohort's evening session." },
     { q: 'How long do I have access?', a: 'Forever! The course materials, agents, and community access are all yours after you pay.' },
     { q: 'What makes this different from other AI courses?', a: 'You leave with working AI agents — not just knowledge. Your personal AI coach is built into the course.' },
-    { q: 'Can I use this for my business?', a: 'Absolutely! Premium tier includes an agency license so you can use the agents with clients.' },
+    { q: 'Can I use this for my business?', a: 'Absolutely! You own the agents you build and can use them in your business.' },
   ]
 
   return (
