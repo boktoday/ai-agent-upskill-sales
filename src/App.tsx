@@ -47,7 +47,7 @@ function App() {
     { num: 1, name: 'The Agentic Revolution', duration: '45 min', icon: Bot },
     { num: 2, name: 'The Tech Stack of 2026', duration: '45 min', icon: Zap },
     { num: 3, name: 'Deep Dive into CoPaw', duration: '60 min', icon: Wrench },
-    { num: 4, name: 'Strategy, Ethics & Application', duration: '30 min', icon: Target },
+    { num: 4, name: 'Strategy, Security, Ethics & Application', duration: '30 min', icon: Target },
     { num: 5, name: 'Knowledge Check & Practice', duration: 'Variable', icon: CheckCircle2 },
   ]
 
