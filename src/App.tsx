@@ -61,7 +61,7 @@ function App() {
   ]
 
   const steps = [
-    { step: '1', title: 'Set Up CoPaw', desc: "We'll help you install CoPaw on your laptop. Works on Windows, Mac, or Linux.", time: 'Before Day 1' },
+    { step: '1', title: 'Set Up CoPaw', desc: "We'll show you how to install CoPaw on your laptop, mini PC or old computer. Works on Windows, Mac, or Linux. *Requires additional purchase of $15.00 AI credits to use for your AI team build via API.", time: 'Before Day 1' },
     { step: '2', title: 'Join Your Cohort', desc: 'Monday sessions — morning for new starters, evening for catch-up with the previous cohort.', time: 'Mondays' },
     { step: '3', title: 'Learn & Build', desc: '5 modules covering everything from AI basics to building your own agent ecosystems.', time: 'Week 1-2' },
     { step: '4', title: 'Graduate', desc: 'Get your certificate and keep all the agents you built.', time: 'End of Week 2' },
