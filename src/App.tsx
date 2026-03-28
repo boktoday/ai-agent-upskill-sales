@@ -117,7 +117,7 @@ function App() {
       <section className="hero-section">
         <div className="hero-badge">
           <Rocket size={14} />
-          Now Enrolling — Next Cohort Starts Monday
+          Now Enrolling — Next Cohort Starts Monday April 13th 4:30pm-6pm
         </div>
         <div className="hero-image-wrapper">
           <img src="/hero-crab.jpg" alt="CoPaw AI Agent" className="hero-image" />
