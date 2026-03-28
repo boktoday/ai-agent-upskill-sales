@@ -53,7 +53,7 @@ function App() {
 
   const features = [
     { icon: GraduationCap, title: 'Live Training', desc: '2 cohort sessions per week with real-time Q&A' },
-    { icon: Bot, title: 'Your Agent Team', desc: 'Build and keep working AI agents for your business' },
+    { icon: Bot, title: 'Your Agent Team', desc: 'Build and keep working custom AI agents for your business, side hustle, family or personal use' },
     { icon: Laptop, title: 'Own Your Install', desc: "CoPaw on your device — it's yours forever" },
     { icon: BarChart3, title: 'Interactive Learning', desc: 'Flashcards, quizzes, progress tracking' },
     { icon: Users, title: 'Cohort Community', desc: 'Network with others on the same journey' },
