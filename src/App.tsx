@@ -33,7 +33,7 @@ function App() {
       badge: 'Most Popular',
       features: [
         'Your own AI agent that teaches you CoPaw',
-        '2 Live Sessions per Week',
+        '2 cohort sessions per week over 2 weeks',
         'Cohort Community',
         'Catch-up Recordings',
         'WhatsApp Support Group',
