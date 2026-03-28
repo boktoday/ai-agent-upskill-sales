@@ -327,7 +327,7 @@ function App() {
       <section className="section-cta">
         <h2 className="cta-title">Ready to Build Your AI Team?</h2>
         <p className="cta-desc">
-          Join the next cohort. Set up your CoPaw. Leave with working AI agents.
+          Join the next cohort. Set up your CoPaw. Build and keep customized working AI agents.
         </p>
         <a href="#pricing" className="btn-primary cta-btn">
           Enroll Now — From $297 <ArrowRight size={20} />
