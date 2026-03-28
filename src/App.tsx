@@ -32,7 +32,7 @@ function App() {
       originalPrice: null,
       badge: 'Most Popular',
       features: [
-        'Your own AI agent that teaches you OpenClaw',
+        'Your own AI agent that teaches you CoPaw',
         '2 Live Sessions per Week',
         'Cohort Community',
         'Catch-up Recordings',
@@ -46,7 +46,7 @@ function App() {
   const modules = [
     { num: 1, name: 'The Agentic Revolution', duration: '45 min', icon: Bot },
     { num: 2, name: 'The Tech Stack of 2026', duration: '45 min', icon: Zap },
-    { num: 3, name: 'Deep Dive into OpenClaw', duration: '60 min', icon: Wrench },
+    { num: 3, name: 'Deep Dive into CoPaw', duration: '60 min', icon: Wrench },
     { num: 4, name: 'Strategy, Ethics & Application', duration: '30 min', icon: Target },
     { num: 5, name: 'Knowledge Check & Practice', duration: 'Variable', icon: CheckCircle2 },
   ]
@@ -54,14 +54,14 @@ function App() {
   const features = [
     { icon: GraduationCap, title: 'Live Training', desc: '2 cohort sessions per week with real-time Q&A' },
     { icon: Bot, title: 'Your Agent Team', desc: 'Build and keep working AI agents for your business' },
-    { icon: Laptop, title: 'Own Your Install', desc: "OpenClaw on your laptop — it's yours forever" },
+    { icon: Laptop, title: 'Own Your Install', desc: "CoPaw on your laptop — it's yours forever" },
     { icon: BarChart3, title: 'Interactive Learning', desc: 'Flashcards, quizzes, progress tracking' },
     { icon: Users, title: 'Cohort Community', desc: 'Network with others on the same journey' },
     { icon: Award, title: 'Certificate', desc: 'Prove your AI orchestration skills' },
   ]
 
   const steps = [
-    { step: '1', title: 'Set Up OpenClaw', desc: "We'll help you install OpenClaw on your laptop. Works on Windows, Mac, or Linux.", time: 'Before Day 1' },
+    { step: '1', title: 'Set Up CoPaw', desc: "We'll help you install CoPaw on your laptop. Works on Windows, Mac, or Linux.", time: 'Before Day 1' },
     { step: '2', title: 'Join Your Cohort', desc: 'Monday sessions — morning for new starters, evening for catch-up with the previous cohort.', time: 'Mondays' },
     { step: '3', title: 'Learn & Build', desc: '5 modules covering everything from AI basics to building your own agent ecosystems.', time: 'Week 1-2' },
     { step: '4', title: 'Graduate', desc: 'Get your certificate and keep all the agents you built.', time: 'End of Week 2' },
@@ -69,7 +69,7 @@ function App() {
 
   const faqs = [
     { q: 'Do I need coding experience?', a: 'No! This course is designed for non-technical people. If you can use a computer, you can do this.' },
-    { q: 'What computer do I need?', a: "Any laptop from the last 5 years will work. Windows, Mac, or Linux. We'll help you set up OpenClaw." },
+    { q: 'What computer do I need?', a: "Any laptop from the last 5 years will work. Windows, Mac, or Linux. We'll help you set up CoPaw." },
     { q: 'What if I miss a session?', a: "You get catch-up recordings and can join the next cohort's evening session." },
     { q: 'How long do I have access?', a: 'Forever! The course materials, agents, and community access are all yours after you pay.' },
     { q: 'What makes this different from other AI courses?', a: 'You leave with working AI agents — not just knowledge. Your personal AI coach is built into the course.' },
@@ -80,7 +80,7 @@ function App() {
     { icon: Mail, label: 'Gmail account' },
     { icon: Laptop, label: 'Desktop / Laptop' },
     { icon: Globe, label: 'Chrome Browser' },
-    { icon: Download, label: 'OpenClaw installed (we teach you how)' },
+    { icon: Download, label: 'CoPaw installed (we teach you how)' },
   ]
 
   return (
@@ -120,14 +120,14 @@ function App() {
           Now Enrolling — Next Cohort Starts Monday
         </div>
         <div className="hero-image-wrapper">
-          <img src="/hero-crab.jpg" alt="OpenClaw AI Agent" className="hero-image" />
+          <img src="/hero-crab.jpg" alt="CoPaw AI Agent" className="hero-image" />
         </div>
         <h1 className="hero-title">
           Master AI Agents with Your<br />
           <span style={{ color: COLORS.rosePink }}>Personal AI Coach</span>
         </h1>
         <p className="hero-desc">
-          Learn to build, customize, and deploy AI agent ecosystems using OpenClaw.
+          Learn to build, customize, and deploy AI agent ecosystems using CoPaw.
           You leave with <strong>working agents</strong> — not just theory.
         </p>
         <div className="requirements-row">
@@ -139,7 +139,7 @@ function App() {
           ))}
         </div>
         <p className="requirements-note">
-          We'll show you how to install OpenClaw on your computer, laptop, or mini PC.
+          We'll show you how to install CoPaw on your computer, laptop, or mini PC.
         </p>
         <div className="hero-buttons">
           <a href="#pricing" className="btn-primary">
@@ -327,7 +327,7 @@ function App() {
       <section className="section-cta">
         <h2 className="cta-title">Ready to Build Your AI Team?</h2>
         <p className="cta-desc">
-          Join the next cohort. Set up your OpenClaw. Leave with working AI agents.
+          Join the next cohort. Set up your CoPaw. Leave with working AI agents.
         </p>
         <a href="#pricing" className="btn-primary cta-btn">
           Enroll Now — From $297 <ArrowRight size={20} />
@@ -336,7 +336,7 @@ function App() {
 
       {/* Footer */}
       <footer className="site-footer">
-        <p>© 2026 AI Agent Upskill Course · Built with OpenClaw</p>
+        <p>© 2026 AI Agent Upskill Course · Built with CoPaw</p>
       </footer>
 
       {/* Checkout Modal */}
