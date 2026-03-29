@@ -68,6 +68,7 @@ function App() {
   ]
 
   const faqs = [
+    { q: 'What is CoPaw?', a: 'CoPaw is a free, open-source AI agent platform that runs on your own computer. Think of it like having a personal AI assistant that lives on your laptop, can browse the web, read/write files, run code, and more. No coding required — you configure it using plain English. It is the tool you will master in this course.' },
     { q: 'Do I need coding experience?', a: 'No! This course is designed for non-technical people. If you can use a computer, you can do this.' },
     { q: 'What computer do I need?', a: "Any laptop from the last 5 years will work. Windows, Mac, or Linux. We'll help you set up CoPaw." },
     { q: 'What if I miss a session?', a: "You get catch-up recordings and can join the next cohort's evening session." },
