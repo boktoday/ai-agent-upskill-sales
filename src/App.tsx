@@ -28,7 +28,7 @@ function App() {
     {
       id: 'cohort',
       name: 'Live Cohort',
-      price: 297,
+      price: 279,
       originalPrice: null,
       badge: 'Most Popular',
       features: [
