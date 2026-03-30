@@ -124,12 +124,11 @@ function App() {
           <img src="/hero-crab.jpg" alt="CoPaw AI Agent" className="hero-image" />
         </div>
         <h1 className="hero-title">
-          Master AI Agents with Your<br />
-          <span style={{ color: COLORS.rosePink }}>Personal AI Coach</span>
+          Augment Yourself with<br />
+          <span style={{ color: COLORS.rosePink }}>Plus One</span>
         </h1>
         <p className="hero-desc">
-          Learn to build, customize, and deploy AI agent ecosystems using CoPaw.
-          You leave with <strong>working agents</strong> — not just theory.
+          Create Your AI Agent System in 2 Weeks
         </p>
         <div className="requirements-row">
           {requirements.map((r, i) => (
